@@ -73,7 +73,7 @@ jobs:
 
   macos-arm:
     name: MacOS ARM (PM ${{ matrix.pm-version-major }})
-    runs-on: macos-11.0
+    runs-on: macos-13
     strategy:
       matrix:
         pm-version-major: [ 4, 5 ]
